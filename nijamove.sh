@@ -3,9 +3,9 @@
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 MYIP=$(wget -qO- ipv4.icanhazip.com)
 dbhost='185.61.137.168';
-dbuser='stormvpj_wos3kvpnname';
-dbpass='wos3kvpnpass2020';
-dbname='stormvpj_wos3kvpn';
+dbuser='sibugaym_buhaynamanok';
+dbpass='mhiedhie100710';
+dbname='sibugaym_buhaynamanok';
 cacert='-----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
 VQQGEwJQSDERMA8GA1UECBMIQmF0YW5nYXMxETAPBgNVBAcTCEJhdGFuZ2FzMRIw
@@ -377,7 +377,7 @@ cat key.pem cert.pem > /etc/stunnel/stunnel.pem
 
 #set dropbear configuration
 sed -i 's/NO_START=1/NO_START=0/g' /etc/default/dropbear
-sed -i "s/DROPBEAR_PORT=22/DROPBEAR_PORT=550\nDROPBEAR_PORT=225/g" /etc/default/dropbear
+sed -i "s/DROPBEAR_PORT=22/DROPBEAR_PORT=442\nDROPBEAR_PORT=225/g" /etc/default/dropbear
 echo "/bin/false" >> /etc/shells
 sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 clear
