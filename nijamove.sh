@@ -610,4 +610,3 @@ exit 0
 sleep 3
 echo "The server will reboot after installation"
 reboot
-
