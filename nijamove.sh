@@ -1,11 +1,11 @@
 #!/bin/bash
-#this script is created by stormTEAM for debian 9
+#this script is created by team-tambay for debian 9
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 MYIP=$(wget -qO- ipv4.icanhazip.com)
 dbhost='185.61.137.168';
-dbuser='sibugaym_';
-dbpass='taenamo';
-dbname='sibugaym_';
+dbuser='sibugaym_buhaynamanok';
+dbpass='mhiedhie100710';
+dbname='sibugaym_buhaynamanok';
 cacert='-----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
 VQQGEwJQSDERMA8GA1UECBMIQmF0YW5nYXMxETAPBgNVBAcTCEJhdGFuZ2FzMRIw
@@ -40,11 +40,11 @@ Data:
 Version: 3 (0x2)
 Serial Number: 1 (0x1)
 Signature Algorithm: sha256WithRSAEncryption
-Issuer: C=PH, ST=Batangas, L=Batangas, O=SavageVPN, OU=SavageVPN, CN=savage-vpn.tk/name=server/emailAddress=savage99@gmail.com
+Issuer: C=PH, ST=Batangas, L=Batangas, O=team-tambay-vpn, OU=team-tambay-vpn, CN=team-tambay-vpn.tk/name=server/emailAddress=pokpokngpekpek@gmail.com
 Validity
 Not Before: Apr 20 04:53:44 2018 GMT
 Not After : Apr 17 04:53:44 2028 GMT
-Subject: C=PH, ST=Batangas, L=Batangas, O=SavageVPN, OU=SavageVPN, CN=savage-vpn.tk/name=server/emailAddress=savage99@gmail.com
+Subject: C=PH, ST=Batangas, L=Batangas, O=team-tambay-vpn, OU=team-tambay-vpn, CN=team-tambay-vpn.tk/name=server/emailAddress=pokpokngpekpek@gmail.com
 Subject Public Key Info:
 Public Key Algorithm: rsaEncryption
 Public-Key: (2048 bit)
@@ -79,7 +79,7 @@ X509v3 Subject Key Identifier:
 0C:4B:B3:78:75:C7:5E:C8:16:D2:A7:BC:8E:15:3F:33:E3:58:19:04
 X509v3 Authority Key Identifier:
 keyid:30:B7:64:91:7B:B4:F6:D0:F5:25:03:32:6E:8F:D2:1C:57:9A:F3:48
-DirName:/C=PH/ST=Batangas/L=Batangas/O=SavageVPN/OU=SavageVPN/CN=savage-vpn.tk/name=server/emailAddress=savage99@gmail.com
+DirName:/C=PH/ST=Batangas/L=Batangas/O=team-tambay-vpn/OU=team-tambay-vpn/CN=team-tambay-vpn/name=server/emailAddress=pokpokngpekpek@gmail.com
 serial:FD:06:2F:29:CE:AA:6D:FC
 X509v3 Extended Key Usage:
 TLS Web Server Authentication
@@ -243,7 +243,7 @@ EOF
 #select type of server
 echo -e "Type of your Server$RESET"
 PS3='Choose or Type a Plan: '
-options=("Premium" "VIP" "PRIVATE" "Quit")
+options=("PREMIUM" "VIP" "PRIVATE" "Quit")
 select opt in "${options[@]}"; do
   case "$opt,$REPLY" in
     Premium,*|*,Premium) 
