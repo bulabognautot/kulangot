@@ -2,10 +2,10 @@
 #this script is created by bulbulnapulaTEAM for debian 9
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 MYIP=$(wget -qO- ipv4.icanhazip.com)
-dbhost='174.138.183.242';
-dbuser='clickweb_bulbulna1';
-dbpass='mhiedhie100710';
-dbname='clickweb_bulbulna1';
+dbhost='124.138.133.242';
+dbuser='pakemo_bulbulna1';
+dbpass='mhie10';
+dbname='kwentomo_bulbulna1';
 cacert='-----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
 VQQGEwJQSDERMA8GA1UECBMIQmF0YW5nYXMxETAPBgNVBAcTCEJhdGFuZ2FzMRIw
